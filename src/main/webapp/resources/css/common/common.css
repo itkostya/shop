@@ -1,0 +1,75 @@
+div.div-like-button,
+a.link-like-button{
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    border: 2px outset buttonface;
+    text-decoration: none;
+    border-image: initial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0 0 0 0;
+    font: 13px Arial;
+    -webkit-writing-mode: horizontal-tb;
+    -webkit-appearance: button;
+    padding: 1px;
+}
+
+.table-wrapper{
+    position:relative;
+    width:100%;
+}
+
+.table-wrapper table
+{
+    width:100%;
+}
+
+.table-scroll-products
+{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: inherit;
+}
+
+.table-products
+{
+    width: 100%;
+    border-collapse: collapse;
+    border-right: 1px solid black;
+}
+
+.table-products TBODY TD
+{
+    margin:0;
+    padding:0;
+    border: 1px solid black;
+    cursor:pointer;
+    border-top:0;
+}
+
+.table-products THEAD TD
+{
+    margin:0;
+    padding:0;
+    border: 1px solid black;
+}
+
+.table-products tbody tr:hover
+{
+    background: rgb(204, 255, 204) !important;
+}
+
+.table-products thead
+{
+    background: rgb(240, 255, 240) !important;
+}
